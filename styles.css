@@ -1,0 +1,54 @@
+.clock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Add padding value as desired */
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin value between clocks */
+  width: calc(25% - 20px); /* Adjust the width calculation based on the desired spacing */
+  /* border: 1px solid black;
+  border-radius: 30px;
+  width: 250px; */
+}
+
+.digital-clock {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.flag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Replace the flag images with the actual paths to your flag images */
+img {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 5px; /* Add margin value between flags */
+}
+.clock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-container {
+  text-align: center;
+}
+
+#search-input {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+}
