@@ -20,6 +20,7 @@
 .digital-clock {
   font-size: 24px;
   margin-top: 10px;
+  font-size: smaller;
 }
 
 .flag-container {
